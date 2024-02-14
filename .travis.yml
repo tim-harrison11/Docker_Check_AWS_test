@@ -11,3 +11,4 @@ before_install:
 script:
   - DECRYPTED_VALUE=$(<decrypted_variable.txt)
   - if [ "$DECRYPTED_VALUE" == "test" ]; then echo "Decoded variable is correct"; else echo "Decoded variable is incorrect"; fi
+  - echo $DECRYPTED_VALUE
