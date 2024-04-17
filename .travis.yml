@@ -30,3 +30,4 @@ jobs:
       - echo "${COS_PASSWORD}"
       - docker logout
       - python hello_world.py
+
